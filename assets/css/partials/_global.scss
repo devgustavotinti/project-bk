@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+// Colors
+$brown: #59291c;
+$white: #fff;
+$yellow: #faaf18;
+$bege: #f5ece7;
+$orange: #ed7902;
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: $brown;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1249px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #59291c;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1249px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+header nav ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header nav ul li span {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero {
+  height: 620px;
+  background: linear-gradient(164deg, rgba(239, 225, 218, 0) 3.82%, #efe1da 90.95%);
+}
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero .left-hero {
+  padding-top: 120px;
+  flex: 1;
+  max-width: 528px;
+}
+.hero .left-hero h3 {
+  color: #faaf18;
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+.hero .left-hero h3::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  max-width: 290px;
+  background: url(../img/line.svg) no-repeat center center;
+  display: inline-block;
+}
+.hero .left-hero .value {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+.hero .left-hero .value:after {
+  content: "";
+  background: url(../img/arrow-btn.svg) no-repeat center center;
+  width: 43px;
+  height: 38px;
+  position: absolute;
+  right: -48px;
+  top: 25px;
+}
+.hero .left-hero .value h2 {
+  color: #faaf18;
+  font-size: 6.4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.hero .left-hero .value span {
+  color: #59291c;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.hero .left-hero .value button {
+  color: #fff;
+  background-color: #59291c;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 50px;
+  border-radius: 8px;
+}
+.hero .right-hero {
+  flex: 1;
+  max-width: 528px;
+  height: 663px;
+  background: #faaf18;
+  border-radius: 0 0 12px 12px;
+  padding-top: 95px;
+  padding-bottom: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.hero .right-hero .image {
+  position: absolute;
+  width: 684px;
+  height: 492px;
+}
+.hero .right-hero .image img {
+  position: absolute;
+}
+.hero .right-hero .image img.pepsi {
+  left: 0px;
+  top: 25px;
+}
+.hero .right-hero .image img.chips {
+  right: 0px;
+}
+.hero .right-hero .image img.burger {
+  bottom: 0px;
+  left: 40px;
+  z-index: 3;
+}
+.hero .right-hero .image img.logo-bk {
+  right: 30px;
+  bottom: 5px;
+  z-index: 4;
+}
+.hero .right-hero .offer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero .right-hero .offer::before {
+  content: "";
+  width: 80px;
+  height: 14px;
+  background: url(../img/line-left.svg) no-repeat center center;
+  display: inline-block;
+}
+.hero .right-hero .offer::after {
+  content: "";
+  width: 80px;
+  height: 14px;
+  background: url(../img/line-right.svg) no-repeat center center;
+  display: inline-block;
+}
+.hero .right-hero .offer p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.hero .right-hero .offer p strong {
+  margin-left: 5px;
+}/*# sourceMappingURL=style.css.map */
